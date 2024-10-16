@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(red, green, blue);
+}
+.container{
+display:grid;
+grid-template-columns: repeat(12,1fr);
+grid-template-rows: repeat(4,1fr);
+
+}
+.header{
+       grid-row: 1/2;
+       grid-column: 1/13;
+       background-color: black;
+    height: 70px;
+    height: 80px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
